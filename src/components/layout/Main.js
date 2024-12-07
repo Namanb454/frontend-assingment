@@ -99,7 +99,7 @@ const Main = () => {
                             return (
                                 // eslint-disable-next-line react/jsx-key
                                 <a className="group space-y-6 size-full border-l border-dashed border-black p-5" href="#">
-                                    <Image className='w-[30%]' src={process.img} />
+                                    <Image width={30} height={30} className='w-[30%]' src={process.img} />
                                     <div>
                                         <div>
                                             <h3 className="block font-bold text-gray-800">{process.title}</h3>
@@ -136,7 +136,7 @@ const Main = () => {
                                         <div className="bg-[#f4f8ff] shadow-lg py-10 px-2">
                                             <div className="flex items-center gap-x-10 mb-3">
                                                 <div className="">
-                                                    <Image className='w-[100%]' src={industry.img} />
+                                                    <Image width={100} height={100} className='w-[100%]' src={industry.img} />
                                                 </div>
                                                 <div className="shrink-0">
                                                     <h3 className="w-[80%] ml-auto block text-sm font-semibold text-gray-800">{industry.title}</h3>

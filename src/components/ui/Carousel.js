@@ -41,7 +41,7 @@ const ImageCarousel = () => {
                             </MarqueeGroup>
                             <MarqueeGroup className='MarqueeGroup'>
                                 {row2.map((el1) => (
-                                    <ImageGroup key={el} className='ImageGroup'>
+                                    <ImageGroup key={el1} className='ImageGroup'>
                                         <Image src={el1} className='rounded-2xl opacity-50 md:mx-0 mx-10' />
                                     </ImageGroup>
                                 ))}

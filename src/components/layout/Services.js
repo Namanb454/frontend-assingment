@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <div>
             <div className="py-6  bg-[#101828] text-neutral-50 relative ">
-                <Image className="absolute top-0 left-0 z-0" src="https://techype.in/spotlight.svg" />
+                <Image width={100} height={100} className="absolute top-0 left-0 z-0" src="https://techype.in/spotlight.svg" />
                 <div className="w-[80%] sm:w-10/12 max-w-6xl mx-auto">
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 relative z-10 md:gap-10"><h2 className="text-4xl font-semibold leading-normal md:my-0 my-3">
                         Discover

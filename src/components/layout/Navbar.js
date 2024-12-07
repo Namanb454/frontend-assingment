@@ -39,7 +39,7 @@ const Navbar = () => {
           href="/"
           className="flex gap-2 text-xl font-semibold text-gray-800 hover:text-blue-600 transition-colors"
         >
-          <Image className="w-[32px] h-[32px]" src="https://techype.in/Logo.svg" />
+          <Image width={32} height={32} className="w-[32px] h-[32px]" src="https://techype.in/Logo.svg" />
           Techype
         </Link>
 
