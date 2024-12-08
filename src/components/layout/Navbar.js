@@ -128,7 +128,7 @@ const Navbar = () => {
             className="text-gray-700 focus:outline-none"
             aria-label="Toggle menu"
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMenuOpen ? <X size={28} /> : <Menu size={24} />}
           </button>
         </div>
       </div>
@@ -144,7 +144,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Slide-out */}
       <div
-        className={`fixed top-0 right-0 w-64 h-full bg-white shadow-lg z-50 transform transition-transform duration-300 ease-in-out
+        className={`fixed top-0 right-0 w-[90%] h-full bg-white shadow-lg z-50 transform transition-transform duration-300 ease-in-out
           ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}
       >
         <div className="p-6">
