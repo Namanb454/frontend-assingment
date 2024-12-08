@@ -71,9 +71,7 @@ const Main = () => {
                     </div>
                     <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent pointer-events-none z-10">
                     </div>
-                    <div className="overflow-y-scroll h-64 hide-scrollbar"
-                    // style="scrollbar-width:none;-ms-overflow-style:none"
-                    >
+                    <div className="overflow-y-scroll h-64 hide-scrollbar">
                         <YCarousel />
                     </div>
                 </div>
@@ -91,7 +89,6 @@ const Main = () => {
                     </h2>
                 </div>
 
-                {/* Icon Blocks */}
                 <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-24 lg:py-14 mx-auto">
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-6">
 
@@ -109,27 +106,24 @@ const Main = () => {
                                 </a>
                             )
                         })}
-                        {/* End Card */}
                     </div>
                 </div>
-                {/* End Icon Blocks */}
             </div>
 
             {/* Section 3 */}
             <div>
                 <div className="py-6 relative ">
                     <div className="w-[80%] sm:w-10/12 max-w-6xl mx-auto">
-                        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 relative z-10 md:gap-10"><h2 className="text-4xl font-semibold leading-normal md:my-0 my-3">
-                            Industries We Serve
-                        </h2>
+                        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 relative z-10 md:gap-10">
+                            <h2 className="text-4xl font-semibold leading-normal md:my-0 my-3">
+                                Industries We Serve
+                            </h2>
                             <p className="max-w-xl text-base md:text-left ">
                                 We have a structured work process to ensure that the projects handled can be completed properly and according to your needs.</p>
                         </div>
 
-                        {/* Icon Blocks */}
                         <div className="max-w-6xl px-4 py-10 sm:px-6 lg:px-0 lg:py-14 mx-auto">
                             <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-6 md:gap-5">
-                                {/* Card */}
                                 {industries.map((industry) => {
                                     return (
                                         // eslint-disable-next-line react/jsx-key
@@ -147,8 +141,6 @@ const Main = () => {
                                 })}
                             </div>
                         </div>
-                        {/* End Icon Blocks */}
-
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 'use client'
 
 import Footer from "@/components/layout/Footer";
+import Form from "@/components/layout/Form";
 import Hero from "@/components/layout/Hero";
 import Main from "@/components/layout/Main";
 import Navbar from "@/components/layout/Navbar";
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <Main />
       <Testimonials />
+      <Form />
       <Footer />
     </div>
   );

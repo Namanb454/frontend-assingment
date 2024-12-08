@@ -19,12 +19,8 @@ const Footer = () => {
     ]
 
     return (
-        <div>{/* ========== FOOTER ========== */}
-            <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-gray-900 text-white"
-                style={{
-                    backgroundImage: 'url(/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FFooter3.d2de001d.png&w=1080&q=75)'
-                }}
-            >
+        <div>
+            <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-gray-900 text-white">
                 {/* Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 mb-10">
                     <div className="col-span-full lg:col-span-1 lg:block">
@@ -34,10 +30,8 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    {/* End Col */}
                     {footer.map((tags) => {
                         return (
-
                             <div key={tags.tag}>
                                 <h4 className="text-base font-semibold text-white uppercase">{tags.tag}</h4>
                                 {tags.links.map((comTag) => {
@@ -52,13 +46,10 @@ const Footer = () => {
                     })}
 
                 </div>
-                {/* End Grid */}
                 <div className="pt-5 mt-5">
                     <div className="sm:flex sm:justify-between sm:items-center text-sm text-gray-600">
                         © Techype Technology Ltd 2024-present. All Rights Reserved.
                         <div className="flex flex-wrap justify-between items-center gap-3">
-                           
-                            {/* Social Brands */}
                             <div className="space-x-4 md:space-y-0 space-y-5">
                                 <a className="inline-block text-white hover:text-gray-800 focus:outline-none focus:text-gray-800" href="#">
                                     <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="currentColor" viewBox="0 0 16 16">
@@ -76,13 +67,11 @@ const Footer = () => {
                                     </svg>
                                 </a>
                             </div>
-                            {/* End Social Brands */}
                         </div>
-                        {/* End Col */}
                     </div>
                 </div>
             </footer>
-            {/* ========== END FOOTER ========== */}</div>
+        </div>
 
     )
 }

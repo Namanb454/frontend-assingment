@@ -2,13 +2,8 @@
 
 import React from 'react'
 import styled, { keyframes, css } from "styled-components";
-// import { motion } from 'framer-motion';
-// import { useInView } from 'react-intersection-observer';
 
 const YCarousel = () => {
-
-
-
   const row1 = [
     "Software Developer",
     "Backend Developer",

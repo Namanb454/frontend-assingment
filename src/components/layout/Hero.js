@@ -3,13 +3,13 @@ import Carousel from '../ui/Carousel'
 
 const Hero = () => {
     return (
-        <div>{/* Hero */}
+        <div>
             <div className="">
 
-                <section className="relative w-full bg-[#f4f8ff] h-[60vh]  flex items-center">
-                    <div className="w-11/12 sm:w-10/12 max-w-[1700px] mx-auto">
+                <section className="relative w-full bg-[#f4f8ff] h-[60vh] flex items-center">
+                    <div className="w-11/12 sm:w-10/12 max-w-6xl mx-auto">
                         <div className="max-w-2xl z-10 relative">
-                            <h1 className="mb-6 text-4xl font-[600] tracking-tight text-black md:text-[48px] lg:text-[48px] leading-tight md:leading-[67.2px]">
+                            <h1 className="mb-6 text-4xl font-[600] tracking-tight text-black md:text-5xl lg:text-5xl leading-tight md:leading-[67.2px]">
                                 Hype Your Ideas
                                 <br />
                                 With <span className="text-[#0c0eff]">Techype</span>
@@ -28,15 +28,12 @@ const Hero = () => {
                     </div>
                 </section>
 
-                <p className='w-fit mx-auto text-lg mt-20 tracking-wide text-neutral-500'>
+                <p className='w-fit mx-auto text-lg mt-20 tracking-wide text-gray-500'>
                     Trusted by leading brands and startups
                 </p>
                 <Carousel />
             </div>
-            {/* End Hero */}
-            {/* Clients */}
-
-            {/* End Clients */}</div >
+        </div >
 
     )
 }
