@@ -46,11 +46,11 @@ const YCarousel = () => {
   return (
     <div>
       <div className=''>
-        <AppContainer className='md:h-[10vh] h-[20vh] overflow-hidden w-fit'>
+        <AppContainer className='md:h-[10vh] h-[20vh] overflow-hidden md:w-fit'>
           <Wrapper className=''>
             <Marquee className='space-y-3'>
 
-              <MarqueeGroup className='grid grid-cols-3 gap-3 w-fit'>
+              <MarqueeGroup className='grid md:grid-cols-3 grid-cols-2 gap-3 md:w-fit'>
                 {row1.map((el) => (
                   // eslint-disable-next-line react/jsx-key
                   <ImageGroup className='ImageGroup'>
@@ -58,7 +58,7 @@ const YCarousel = () => {
                   </ImageGroup>
                 ))}
               </MarqueeGroup>
-              <MarqueeGroup className='grid grid-cols-3 gap-3 w-fit'>
+              <MarqueeGroup className='grid md:grid-cols-3 grid-cols-2 gap-3 md:w-fit'>
                 {row2.map((el1) => (
                   // eslint-disable-next-line react/jsx-key
                   <ImageGroup className='ImageGroup '>
@@ -77,7 +77,6 @@ const YCarousel = () => {
 export default YCarousel
 
 const AppContainer = styled.div`
-  width: 50vw;
   height: fit-content;
   color: #000000;
 
@@ -87,9 +86,7 @@ const AppContainer = styled.div`
 `;
 
 const Wrapper = styled.div`
-  
   height: full;
-  
   align-items: center;
   justify-content: center;
   flex-direction: column;

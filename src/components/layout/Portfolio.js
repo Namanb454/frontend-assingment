@@ -89,7 +89,7 @@ const Testimonials = () => {
 
                                             <div className="p-6 lg:p-12 md:w-1/2">
                                                 <div className="flex items-center mb-4">
-                                                    <Image width={100} height={100} src="https://techype.in/PortfolioLogo.svg" />
+                                                    <Image width={30} height={30} src="https://techype.in/PortfolioLogo.svg" />
                                                     <h3 className="ml-4 text-2xl font-semibold text-white">{project.name}</h3>
                                                 </div>
                                                 <div className='md:flex md:flex-wrap md:gap-5 my-3 md:space-y-0 space-y-2'>
